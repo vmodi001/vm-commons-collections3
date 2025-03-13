@@ -25,9 +25,9 @@
     <version>39</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>vm-commons-collections</groupId>
-  <artifactId>${vm.commons.componentid}</artifactId>
-  <version>${vm.commons.release.version}</version>
+  <groupId>vm.commons.collections</groupId>
+  <artifactId>vm-commons-collections3</artifactId>
+  <version>1.0.0</version>
   <name>Modified fork of Apache Commons Collections</name>
 
   <inceptionYear>2025</inceptionYear>
