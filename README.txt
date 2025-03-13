@@ -1,3 +1,7 @@
+## Acknowledgments
+This project is a fork of [Apache Commons Collections](http://commons.apache.org/collections/), originally developed by the Apache Software Foundation. Special thanks to the original authors for their contributions.
+
+
 Apache Commons Collections
 ===========================
 

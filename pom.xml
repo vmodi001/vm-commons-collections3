@@ -25,26 +25,20 @@
     <version>39</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>commons-collections</groupId>
-  <artifactId>commons-collections</artifactId>
-  <version>3.2.2</version>
-  <name>Apache Commons Collections</name>
+  <groupId>vm-commons-collections</groupId>
+  <artifactId>${vm.commons.componentid}</artifactId>
+  <version>${vm.commons.release.version}</version>
+  <name>Modified fork of Apache Commons Collections</name>
 
-  <inceptionYear>2001</inceptionYear>
-  <description>Types that extend and augment the Java Collections Framework.</description>
+  <inceptionYear>2025</inceptionYear>
+  <description>This is a modified version of Apache Commons Collections without SetUniqueList.</description>
 
-  <url>http://commons.apache.org/collections/</url>
 
-  <issueManagement>
-    <system>jira</system>
-    <url>http://issues.apache.org/jira/browse/COLLECTIONS</url>
-  </issueManagement>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/commons/proper/collections/trunk</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/commons/proper/collections/trunk</developerConnection>
-    <url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url>
-  </scm>
+ <scm>
+    <connection>scm:git:git://github.com/vmodi001/vm-commons-collections3.git</connection>
+    <developerConnection>scm:git:ssh://github.com/vmodi001/vm-commons-collections3.git</developerConnection>
+    <url>https://github.com/vmodi001/vm-commons-collections3</url>
+ </scm>
 
   <developers>
     <developer>
@@ -378,14 +372,10 @@
   </dependencies>
 
   <properties>
-    <maven.compile.source>1.2</maven.compile.source>
-    <maven.compile.target>1.2</maven.compile.target>
-    <commons.componentid>collections</commons.componentid>
-    <commons.release.version>3.2.2</commons.release.version>
-    <commons.rc.version>RC3</commons.rc.version>
-    <commons.binary.suffix>-bin</commons.binary.suffix>
-    <commons.jira.id>COLLECTIONS</commons.jira.id>
-    <commons.jira.pid>12310465</commons.jira.pid>
+    <maven.compile.source>1.8</maven.compile.source>
+    <maven.compile.target>1.8</maven.compile.target>
+    <vm.commons.componentid>vm-commons-collections3</vm.commons.componentid>
+    <vm.commons.release.version>1.0.0</vm.commons.release.version>
   </properties> 
 
   <build>
